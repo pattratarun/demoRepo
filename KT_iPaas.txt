@@ -1,0 +1,69 @@
+ipaas
+
+4 interfaces for zoura
+3 interfaces owned by zoura
+
+Full Load
+
+
+-- Zoura - EDA   not owned, developed and maintained by EDL team
+
+Eplorer
+--> Zoura interfaces folders
+
+CERT-- UAT
+STAGE -- DEV (QB, ERP, ZOURA)
+
+API sandbox dev
+
+product
+rate plan
+
+
+10 table in qb
+ 5 temp
+ 5 main table
+ 
+ZouraToQuotebuilder
+
+ 
+ZouraToQuotebuilder-SUBSCRIPTION
+subcription quote from qb template created in ZOURA to QB run in 30 min
+
+
+STAGING taskflow
+source zoura uat- qb dev
+
+
+
+ZouraToERPCFS  Folder
+CFS - sw maintainence org code to zoura  CFStoZoura
+CDM - Hw maintainence org code to zoura
+
+
+Zoura folder
+-- Zoura  -  ERP-AR(Account Receivables)
+SCA InvoiceExtract Release 
+
+ERP-AR
+Vivek singh 2
+
+
+Ipaas
+Aman Roy
+Vikram Reddy 
+
+
+CR for Middle Admin Assignnment group 
+Chip Flecher for addtional approver
+
+
+Posaas own Cameron Love
+
+Briana-newco, 
+greg-As a service,
+azzilea
+
+
+Posaas KT  - Ram
+Zoura -

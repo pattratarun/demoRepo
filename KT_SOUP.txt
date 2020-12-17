@@ -1,0 +1,114 @@
+SOUP Interfaces for Zoura    Gulshan, Rekha, Sumit
+
+Zoura to ERP Interface (Credit Memo, Credit adjustment, IIA)    every 1 hour, Outbound,  Ram, Greg, Brianna
+--Zoura create <XML> using java class --> Invoice adjument number --> SOUP  -->   <Trx number> ERP
+
+Quotebuilder to Zoura Subscription creation interface   QB  POC Pankaj,  Zoura - Suraj, Event driven, Json Formatted, Inbound
+-- Only Create API in Zoura for Sub creation
+-- Amendment case --> create new Subscription
+
+CDM to Zoura Interface  Inbound
+-- Subscription enabled flag is for sending cdm to zoura
+--Vivek from ERP
+--SOUP Gulshan, Rekha
+
+PMDM to Zoura Interface  Inbound
+--Market Product ID from PMDM to Zoura
+
+
+
+
+Upgradation of Zooura in NSC  9.7 currrent version
+
+Subscription Quoting (ZQuote)
+--DI quotes
+--Non-DI Quotes
+
+Packages
+--Zoura Quotes
+--Zoura 360
+
+Zquote Profile
+--54
+--55
+--cloned 54
+--61  DI User creating DI quote
+--62  DI User creating DI quote
+
+DI requirement - Sheela
+
+Subscription Group -- Digital Insight
+
+DI Quote information --> Service Now  POC-Keeth Heart
+
+--Subscription Owner - Ship TO
+--Invoice Owner - Bill To
+
+
+Reporting Only --> used as a filter in iPass interface  --> Yes f quote will not send to ERP 
+
+
+
+(NSC)Opportunity --> ZQuote --> Add Product(with Rate Plan) --> Non-DI, DI Product --> Subscription create in zoura
+
+Product --> Rate Plan(Grp of Multiple charges)  -->  Rate plan  Charges  --> Rate Plan charges tier
+
+
+
+Quote Status  --> send to Zbilling --> sent to Zoura
+Send to Zoura button --< mannually send to Zoura
+
+Provisioning Status = Implemenation Status
+
+
+
+Zoura Application
+
+
+Product Information
+--SKU  ==  Product ID
+--Market Product ID = PMDM
+--Subscription Group = Identify for retail, banking, Hospitality
+
+Zoura Connect
+https://connect.zoura.com/tools
+
+To Update Currencies
+--(GSDB)ChargeId --> Rate Plan ID(required)
+
+Product Rate Plan Charge id  == ChargeId (provided by configurator )  
+
+
+convert Product Rate Plan Charge id to Product Rate Plan Id
+
+
+
+CSV file
+--ID
+--ACTIVECURRENCIES
+
+Limitations
+--Max 4 currencies in a row
+
+SCIT support for updating/ run script for changing currencies
+
+
+
+Zoura Support for incident logs
+
+Posaas Brianna or Azzelia
+
+Cameron and Hunter business approval
+
+CR creation
+CR approval
+
+--Implementation Plan 
+--Backup Plan
+
+
+DI-- Ajay Dixit
+POSAAS - RAM
+
+
+SCA
